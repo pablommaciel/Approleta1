@@ -25,7 +25,7 @@ let buffer = null;
 
 setInterval(() => {
   //console.log('Verificando atualizações...');
-  connection.query('SELECT * FROM spaceman ORDER BY ID DESC LIMIT 1', (err, rows) => {
+  connection.query('SELECT * FROM roleta1 ORDER BY ID DESC LIMIT 1', (err, rows) => {
     if(err) {
       console.error('Erro ao consultar o banco de dados: ', err);
       return;
